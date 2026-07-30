@@ -358,6 +358,14 @@ In this project, it shows how many launches were correctly or incorrectly predic
 </tr>
 </table>
 
+<h1 align="center">IBM Data Science Professional Certificate</h1> 
+
+![Diploma](./LXNEB0R6WP1J.png)  
+
+# [Verification Link](https://coursera.org/verify/professional-cert/LXNEB0R6WP1J)  
+
+[https://coursera.org/verify/professional-cert/LXNEB0R6WP1J](https://coursera.org/verify/professional-cert/LXNEB0R6WP1J)
+
 <h1 align="center"><i>Overall Summary</i></h1>
 
 Together, these notebooks present the complete workflow of an applied data science capstone project. The analysis begins with data collection from the SpaceX API and Wikipedia, continues with data wrangling and exploratory analysis through pandas, SQL, visualisation, and geospatial mapping, and concludes with machine-learning models designed to predict Falcon 9 first-stage landing success.

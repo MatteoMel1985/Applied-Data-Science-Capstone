@@ -38,7 +38,7 @@ This notebook analyses the geographical distribution of SpaceX launch sites usin
 
 This notebook builds and evaluates classification models to predict whether a Falcon 9 first stage will land successfully. It prepares the feature matrix, standardises numerical variables, splits the data into training and testing sets, applies GridSearchCV for hyperparameter tuning, and compares Logistic Regression, Support Vector Machine, Decision Tree, and K-Nearest Neighbours classifiers.
 
-* [**Capstone Story Presentation**](capstone-story-template%201%281%29.pptx)
+* [**Capstone Project Presentation**](Capstone%20Project%20Presentation.pptx)
 
 This presentation summarises the full capstone project as a business-oriented data science story. It describes the objective, methodology, exploratory findings, interactive visual analytics, machine-learning results, and conclusions.
 

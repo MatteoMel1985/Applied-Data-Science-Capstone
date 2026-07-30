@@ -10,31 +10,31 @@ The business scenario is based on a hypothetical competitor, **Space Y**, which 
 
 <h1 align="center"><i>Notebooks Overview</i></h1>
 
-* [**Data Collection with the SpaceX API**](Hands-on%20Lab%20Complete%20the%20Data%20Collection%20API%20Lab%281%29.ipynb)
+* [**Data Collection with the SpaceX API**](./Hands-on%20Lab%20Complete%20the%20Data%20Collection%20API%20Lab.ipynb)
 
 This notebook collects launch data directly from the SpaceX API. It demonstrates how to send HTTP GET requests, parse JSON responses, extract useful launch information, and transform nested API data into a structured pandas DataFrame. The notebook also filters the dataset to Falcon 9 launches and handles missing payload-mass values.
 
-* [**Web Scraping Falcon 9 and Falcon Heavy Launch Records**](jupyter-labs-webscraping%281%29.ipynb)
+* [**Web Scraping Falcon 9 and Falcon Heavy Launch Records**](./jupyter-labs-webscraping.ipynb)
 
 This notebook collects additional launch records from Wikipedia using web scraping. It uses `requests` and `BeautifulSoup` to download an HTML page, locate the relevant launch tables, extract column names, parse table rows, clean textual values, and convert the scraped information into a pandas DataFrame.
 
-* [**Data Wrangling Overview**](Data%20Wrangling%20Overview%281%29.ipynb)
+* [**Data Wrangling Overview**](./Data%20Wrangling%20Overview.ipynb)
 
 This notebook prepares the SpaceX launch dataset for analysis and machine learning. It performs exploratory checks, evaluates missing values, identifies numerical and categorical variables, summarises launches by site and orbit, studies mission outcomes, and creates the binary landing-outcome label used for classification.
 
-* [**Exploratory Data Analysis with SQL**](Complete%20the%20EDA%20with%20SQL%281%29.ipynb)
+* [**Exploratory Data Analysis with SQL**](./Complete%20the%20EDA%20with%20SQL.ipynb)
 
 This notebook explores the SpaceX dataset using SQL queries. It loads the data into a relational database environment and applies SQL operations to answer analytical questions, including counting launch records, identifying successful and failed outcomes, filtering results by date and launch site, grouping by booster version, and ranking landing outcomes.
 
-* [**Exploratory Data Analysis and Visualisation**](IBM-DS0321EN-SkillsNetwork_labs_module_2_jupyter-labs-eda-dataviz.ipynb.jupyterlite%281%29%281%29.ipynb)
+* [**Exploratory Data Analysis and Visualisation**](./IBM-DS0321EN-SkillsNetwork_labs_module_2_jupyter-labs-eda-dataviz.ipynb.jupyterlite.ipynb)
 
 This notebook uses pandas, Matplotlib, and Seaborn to visualise relationships between launch variables and landing success. It explores how success rates vary by flight number, payload mass, launch site, and orbit type. Scatter plots and bar charts are used to reveal patterns that may be useful for predictive modelling.
 
-* [**Launch Site Location Analysis with Folium**](IBM-DS0321EN-SkillsNetwork_labs_module_3_lab_jupyter_launch_site_location.jupyterlite%281%29.ipynb)
+* [**Launch Site Location Analysis with Folium**](./IBM-DS0321EN-SkillsNetwork_labs_module_3_lab_jupyter_launch_site_location.jupyterlite.ipynb)
 
 This notebook analyses the geographical distribution of SpaceX launch sites using Folium. It creates interactive maps with markers, circles, marker clusters, launch outcomes, coordinate labels, and distance lines. The analysis helps evaluate launch-site proximity to coastlines, roads, railways, and other geographical features relevant to safety and logistics.
 
-* [**Machine Learning Prediction of Falcon 9 Landing Success**](IBM-DS0321EN-SkillsNetwork_labs_module_4_SpaceX_Machine_Learning_Prediction_Part_5.jupyterlite%281%29.ipynb)
+* [**Machine Learning Prediction of Falcon 9 Landing Success**](./IBM-DS0321EN-SkillsNetwork_labs_module_4_SpaceX_Machine_Learning_Prediction_Part_5.jupyterlite.ipynb)
 
 This notebook builds and evaluates classification models to predict whether a Falcon 9 first stage will land successfully. It prepares the feature matrix, standardises numerical variables, splits the data into training and testing sets, applies GridSearchCV for hyperparameter tuning, and compares Logistic Regression, Support Vector Machine, Decision Tree, and K-Nearest Neighbours classifiers.
 
